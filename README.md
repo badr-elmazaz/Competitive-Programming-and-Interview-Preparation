@@ -1,0 +1,3 @@
+# Coding Interview Preparation Repository
+
+Welcome to my Coding Interview Prep repository! This repository is a comprehensive collection of my solutions to coding challenges and problems from various platforms like LeetCode, HackerRank, Pramp, and more. The purpose of this repository is to track my progress, reflect on my learning journey, and provide a resource for others preparing for technical interviews.
