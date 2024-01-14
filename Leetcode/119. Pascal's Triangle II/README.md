@@ -1,7 +1,9 @@
 # [119\. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)
 
 Date: 14/01/2024
+
 Difficulty: Easy
+
 Status: Solved
 
 ## Description:
