@@ -1,7 +1,7 @@
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
         # n = rowIndex
-        # Time Complexity:  O(n)
+        # Time Complexity:  O(n^2)
         # Space Complexity: O(n)
 
         if rowIndex == 0:
