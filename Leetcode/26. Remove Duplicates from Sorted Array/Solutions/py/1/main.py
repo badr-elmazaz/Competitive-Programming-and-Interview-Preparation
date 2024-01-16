@@ -2,14 +2,15 @@ from typing import List
 
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
+        # n = len(nums)
+        # Time Complexity:  O(n)
+        # Space Complexity: O(1)
+        
         count = 0
 
         for i in range(len(nums)):
-            if i == len(nums)-1 or nums[i] != nums[i+1]:
+            if i == (len(nums) - 1) or nums[i] != nums[i + 1]:
                 nums[count] = nums[i]
-                count+=1
-
-        #for i in range(count, len(nums)):
-        #    nums[i] = "_"
+                count += 1
 
         return count
