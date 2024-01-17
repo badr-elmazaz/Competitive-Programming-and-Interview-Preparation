@@ -4,8 +4,8 @@ class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
        # n = len(ransomNote)
        # m = len(magazine)
-       # Time Complexity:  O(max(n, m))
-       # Space Complexity: O(n)
+       # Time Complexity:  O(m)
+       # Space Complexity: O(26) = O(1)
 
        hashtable = defaultdict(int) 
 
