@@ -1,4 +1,5 @@
 def get_different_number(arr):
+    # n = len(arr)
     # time  -> O(n)
     # space -> O(n)
     

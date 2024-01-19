@@ -1,4 +1,13 @@
 # Pairs with Specific Difference
+----
+
+Date: 18/01/2024
+
+Difficulty: Easy
+
+Status: Solved
+
+## Description:
 
 Given an array arr of distinct integers and a nonnegative integer k, write a function findPairsWithGivenDifference that returns an array of all pairs [x,y] in arr, such that x - y = k. If no such pairs exist, return an empty array.
 
