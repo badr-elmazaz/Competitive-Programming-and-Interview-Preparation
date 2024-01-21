@@ -10,7 +10,13 @@ class Solution:
             else:
                 carry = 0
                 break
-
-        if carry == 1: digits.insert(0, 1)
+        
+        # this is bad because it creates a new list and copies all the elements so Time Complexity is O(n)
+        # if carry == 1: 
+            # digits.insert(0, 1) 
+            
+        if carry == 1: 
+            digits[0] = 1
+            digits.append(0)
 
         return digits
