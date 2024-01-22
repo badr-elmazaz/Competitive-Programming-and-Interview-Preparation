@@ -1,6 +1,6 @@
 # [2951\. Find the Peaks](https://leetcode.com/problems/find-the-peaks/)
 
-Date: 22/01/2024
+Date: 21/01/2024
 
 Difficulty: Easy
 
