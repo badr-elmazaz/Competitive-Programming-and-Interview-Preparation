@@ -1,0 +1,13 @@
+class Solution:
+    def findPeaks(self, mountain: List[int]) -> List[int]:
+       # n = len(mountain)
+       # Time Complexity:  O(n)
+       # Space Complexity: O(n)
+       
+       peaks = []
+
+       for i in range(1, len(mountain) - 1):
+           if mountain[i - 1] < mountain[i] and mountain[i] > mountain[i + 1]:
+               peaks.append(i)
+
+       return peaks

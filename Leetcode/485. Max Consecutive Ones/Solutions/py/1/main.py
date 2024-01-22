@@ -15,4 +15,4 @@ class Solution:
                 maximum = max(maximum, counter)
                 counter = 0
         
-       return maximum if maximum > counter else counter
+       return max(maximum, counter)

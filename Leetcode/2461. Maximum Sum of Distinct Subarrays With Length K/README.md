@@ -1,6 +1,6 @@
 # [2461\. Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/)
 
-Date: 20/11/2022
+Date: 20/01/2024
 
 Difficulty: Medium
 
