@@ -2,9 +2,9 @@
 
 Date: 23/01/2024
 
-Difficulty: Easy
+Difficulty: Medium
 
-Status: Medium
+Status: Solved
 
 ## Description:
 
