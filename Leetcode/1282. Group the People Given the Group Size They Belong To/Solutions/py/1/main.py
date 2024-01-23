@@ -1,5 +1,8 @@
 class Solution:
     def groupThePeople(self, groupSizes: List[int]) -> List[List[int]]:
+        # n = len(groupSizes)
+        # Time Complexity:  O(n)
+        # Space Complexity: O(n)
 
         ans = []
         hashtable = defaultdict(set)
