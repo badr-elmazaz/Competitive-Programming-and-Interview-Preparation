@@ -1,17 +1,26 @@
 class Solution:
     def groupThePeople(self, groupSizes: List[int]) -> List[List[int]]:
-        # n = len(groupSizes)
-        # Time Complexity:  O(n)
-        # Space Complexity: O(n)
 
         ans = []
-        hashtable = defaultdict(list)
+        hashtable = defaultdict(set)
 
         for person, group_size in enumerate(groupSizes):
-            hashtable[group_size].append(person)
+            hashtable[group_size].add(person)
 
-            if len(hashtable[group_size]) == group_size:
-                ans.append(hashtable[group_size])
-                hashtable.pop(group_size)
+
+        for group_size, people in hashtable.items():
+            group = []
+            for person in people:
+                group.append(person)
+                if len(group) == group_size:
+                    ans.append(group)
+                    group = []
+
 
         return ans
+
+
+        
+            
+
+        
