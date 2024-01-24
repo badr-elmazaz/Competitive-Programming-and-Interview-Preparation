@@ -5,22 +5,28 @@ class Solution:
         """
         # n = len(nums)
         # Time Complexity:  O(n)
-        # Space Complexity: O(1) 
+        # Space Complexity: O(1)
+        
+        zero_count = 0
+        one_count = 0
 
-        left = 0
-        right = len(nums) - 1
-        i = 0
 
-        while i <= right:
-            current_num = nums[i]
+        for num in nums:
+            if num == 0:
+                zero_count += 1
+            elif num == 1:
+                one_count += 1
+        
+        for i in range(len(nums)):
+            if zero_count == 0:
+                if one_count == 0:
+                    nums[i] = 2
+                
+                else:
+                    nums[i] = 1
+                    one_count -= 1
 
-            if current_num == 0:
-                nums[left], nums[i] = nums[i], nums[left]
-                left += 1
-                i += 1
-
-            elif current_num == 2:
-                nums[right], nums[i] = nums[i], nums[right]
-                right  -= 1
             else:
-                i += 1
+                nums[i] = 0
+                zero_count -= 1
+        
