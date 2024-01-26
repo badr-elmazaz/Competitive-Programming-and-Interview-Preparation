@@ -8,7 +8,7 @@ class Solution:
         i = m - 1
         j = n - 1
 
-        for k in range(len(nums1) - 1, -1, -1):
+        for k in range(n + m - 1, -1, -1):
             num1 = nums1[i] if i >= 0 else float("-inf")
             num2 = nums2[j] if j >= 0 else float("-inf")
 
