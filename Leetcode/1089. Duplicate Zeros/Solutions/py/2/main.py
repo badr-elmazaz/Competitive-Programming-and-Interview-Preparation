@@ -7,7 +7,7 @@ class Solution:
         
         count_spots = 0
         n = len(arr)
-        end = 0
+        end = -1
 
         for i in range(len(arr)):
             current_num = arr[i]
@@ -25,9 +25,6 @@ class Solution:
                 arr[-1] = arr[i]
                 n -= 1
                 break
-
-        if not end:
-            return
 
         left = end
         right = n - 1
