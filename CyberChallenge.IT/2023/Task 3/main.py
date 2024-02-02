@@ -6,7 +6,7 @@ def main():
 
     n, t = map(int, input().split())
 
-    checks = [int(x) for x in input().split()]
+    checks = map(int, input().split())
     
     total = sum(checks)
 
