@@ -1,5 +1,5 @@
 # [3014\. Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/)
-## LeetCode Contest
+## LeetCode Contest 381
 
 Date: 21/01/2024
 

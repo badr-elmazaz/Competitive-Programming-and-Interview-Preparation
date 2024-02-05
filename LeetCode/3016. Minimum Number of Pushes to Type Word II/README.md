@@ -1,6 +1,6 @@
 # [3016\. Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/)
 
-## LeetCode Contest
+## LeetCode Contest 381
 
 Date: 21/01/2024
 
