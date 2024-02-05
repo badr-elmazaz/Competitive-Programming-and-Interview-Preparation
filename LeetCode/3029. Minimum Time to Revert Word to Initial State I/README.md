@@ -1,6 +1,6 @@
 # [3029\. Minimum Time to Revert Word to Initial State I](https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-i/)
 
-## LeetCode Weekly Contest 385
+## LeetCode Weekly Contest 383
 
 Date: 04/02/2024
 

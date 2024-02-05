@@ -1,6 +1,6 @@
 # [3028\. Ant on the Boundary](https://leetcode.com/problems/ant-on-the-boundary/)
 
-## LeetCode Weekly Contest 384
+## LeetCode Weekly Contest 383
 
 Date: 04/02/2024
 
