@@ -1,6 +1,6 @@
 # [3024\. Type of Triangle II](https://leetcode.com/problems/type-of-triangle-ii/)
 
-## LeetCode Weekly Contest 383
+## Biweekly Contest 123
 
 Date: 03/02/2024
 
