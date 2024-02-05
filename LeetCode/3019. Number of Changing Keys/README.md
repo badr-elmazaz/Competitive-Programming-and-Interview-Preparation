@@ -1,7 +1,7 @@
 # [3019\. Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/)
 ## LeetCode Weekly Contest 382
 
-Date: 28/11/2022
+Date: 28/01/2024
 
 Difficulty: Easy
 

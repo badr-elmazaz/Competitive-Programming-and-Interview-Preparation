@@ -21,6 +21,12 @@ def get_platform():
         "Project Euler": "Project Euler",
         "Pramp": "Pramp",
     }
+    # list all directories in this directory
+    all_items = os.listdir(current_path)
+
+    # Filter out directories from all items
+    directories = [item for item in all_items if os.path.isdir(os.path.join(current_path, item))]
+    
     
     sorted_platforms = sorted(platforms.keys())
     

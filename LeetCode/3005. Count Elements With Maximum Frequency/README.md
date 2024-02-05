@@ -1,6 +1,6 @@
 # [3005\. Count Elements With Maximum Frequency](https://leetcode.com/contest/weekly-contest-380/problems/count-elements-with-maximum-frequency/)
 
-Date: 17/11/2022
+Date: 17/01/2024
 
 Difficulty: Easy
 
