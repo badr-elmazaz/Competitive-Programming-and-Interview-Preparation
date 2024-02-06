@@ -1,6 +1,6 @@
 # [2785\. Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/)
 
-Date: 25/11/2022
+Date: 25/01/2024
 
 Difficulty: Medium
 
