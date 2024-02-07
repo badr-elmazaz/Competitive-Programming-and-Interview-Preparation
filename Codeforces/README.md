@@ -1,6 +1,6 @@
 # Codeforces Solutions
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Codeforces_logo.svg" width="100" height="100" alt="Codeforces Logo">
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Codeforces_logo.svg" width="200" height="200" alt="Codeforces Logo">
 
 Welcome to my repository of Codeforces solutions! This repository contains my personal solutions to various coding challenges found on [Codeforces](https://codeforces.com/). The main goal of this repository is to document my journey through these competitive programming challenges and to provide a reference for others who are working through similar problems.
 
