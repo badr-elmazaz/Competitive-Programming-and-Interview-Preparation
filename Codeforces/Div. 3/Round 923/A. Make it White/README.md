@@ -1,4 +1,4 @@
-# [A. Make it White] (https://codeforces.com/contest/1927/problem/A)
+# [A. Make it White](https://codeforces.com/contest/1927/problem/A)
 
 Date: 09/02/2024
 
