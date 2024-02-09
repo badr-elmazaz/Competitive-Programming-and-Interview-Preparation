@@ -1,5 +1,11 @@
 # [A. Make it White] (https://codeforces.com/contest/1927/problem/A)
 
+Date: 09/02/2024
+
+Status: Solved
+
+## Description:
+
 time limit per test
 
 2 seconds
