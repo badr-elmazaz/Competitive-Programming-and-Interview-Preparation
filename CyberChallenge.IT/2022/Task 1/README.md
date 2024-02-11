@@ -63,7 +63,17 @@ xabcdEFGH1234 !*-? abcdEFGH1234 !*-?
 xbcdEFGH1234 !*-? abcdEFGH1234 !*-?
 ?3 CuR3P4s?w0rd abcdEFGH1234 !*-?
 ```
-### 0 0 0 0 0 0 0 0 1
+```
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0
+1
+```
 
 ## Explanation
 
