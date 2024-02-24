@@ -1,4 +1,4 @@
-[682\. Baseball Game](https://leetcode.com/problems/baseball-game/)
+# [682\. Baseball Game](https://leetcode.com/problems/baseball-game/)
 
 Date: 03/01/2024
 
