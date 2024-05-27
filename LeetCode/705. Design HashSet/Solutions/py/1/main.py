@@ -12,15 +12,14 @@ class MyHashSet:
         self.hashset = [ListNode() for _ in range(self.MAX)]
 
     def add(self, key: int) -> None:
-        if self.contains(key):
-            return
-
         idx = key % self.MAX
         node = self.hashset[idx]
         new_node = ListNode(val=key)
 
         while node.next:
             node = node.next
+            if node.val == key:
+                return
         node.next = new_node
 
     def remove(self, key: int) -> None:
