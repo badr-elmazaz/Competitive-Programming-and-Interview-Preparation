@@ -4,19 +4,19 @@ class Solution:
         # Time Complexity:  O(n)
         # Space Complexity: O(1)
 
-        ans = ""
+        ans = []
 
         i = 0
         while i < len(command):
             curr_char = command[i]
             if curr_char == "G":
-                ans += "G"
+                ans.append("G")
                 i += 1
             elif curr_char == "(" and command[i + 1] == ")":
-                ans += "o"
+                ans.append("o")
                 i += 2
             else:
-                ans += "al"
+                ans.append("al")
                 i += 4
 
-        return ans
+        return "".join(ans)
